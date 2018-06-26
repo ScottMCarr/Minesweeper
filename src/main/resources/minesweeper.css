@@ -1,0 +1,165 @@
+.digit-display,
+.game-button {
+    -fx-background-image: url("sprite.gif");
+}
+.game-tile {
+    -fx-pref-width: 16px;
+    -fx-pref-height: 16px;
+    -fx-background-position: 0px -39px;
+}
+.game-tile:pressed {
+    -fx-background-position: 0px -23px;
+}
+.game-tile.flagged {
+    -fx-background-position: -16px -39px;
+}
+.game-tile.unknown {
+    -fx-background-position: -80px -39px;
+}
+.game-tile.unknown:pressed {
+    -fx-background-position: -96px -39px;
+}
+.game-tile.one {
+     -fx-background-position: -16px -23px;
+ }
+.game-tile.two {
+    -fx-background-position: -32px -23px;
+}
+.game-tile.three {
+    -fx-background-position: -48px -23px;
+}
+.game-tile.four {
+    -fx-background-position: -64px -23px;
+}
+.game-tile.five {
+    -fx-background-position: -80px -23px;
+}
+.game-tile.six {
+    -fx-background-position: -96px -23px;
+}
+.game-tile.seven {
+    -fx-background-position: -112px -23px;
+}
+.game-tile.eight {
+    -fx-background-position: -128px -23px;
+}
+.game-tile.mine {
+    -fx-background-position: -64px -39px;
+}
+.game-tile.empty {
+    -fx-background-position: 0px -23px;
+}
+.game-tile.empty.incorrect,
+.game-tile.one.incorrect,
+.game-tile.two.incorrect,
+.game-tile.three.incorrect,
+.game-tile.four.incorrect,
+.game-tile.five.incorrect,
+.game-tile.six.incorrect,
+.game-tile.seven.incorrect,
+.game-tile.eight.incorrect {
+    -fx-background-position: -48px -39px;
+}
+.game-tile.mine.incorrect {
+    -fx-background-position: -32px -39px;
+}
+
+.status-bar {
+    -fx-background-color: #bdbdbd;
+}
+
+.status-bar .game-button {
+    -fx-min-width: 26px;
+    -fx-min-height: 26px;
+    -fx-max-width: 26px;
+    -fx-max-height: 26px;
+}
+.status-bar .game-button.default {
+    -fx-background-position: 0px -55px;
+}
+.status-bar .game-button.guessing {
+    -fx-background-position: -52px -55px;
+}
+.status-bar .game-button.lost {
+    -fx-background-position: -78px -55px;
+}
+.status-bar .game-button.won {
+    -fx-background-position: -104px -55px;
+}
+.status-bar .game-button.default:pressed,
+.status-bar .game-button.guessing:pressed,
+.status-bar .game-button.lost:pressed,
+.status-bar .game-button.won:pressed
+{
+    -fx-background-position: -26px -55px;
+}
+
+.digit-display {
+    -fx-pref-width: 13px;
+    -fx-min-height: 23px;
+    -fx-max-height: 23px;
+}
+
+.digit-display.negative {
+    -fx-background-position: -130px 0px;
+}
+.digit-display.zero {
+    -fx-background-position: 0px 0px;
+}
+.digit-display.one {
+    -fx-background-position: -13px 0px;
+}
+.digit-display.two {
+    -fx-background-position: -26px 0px;
+}
+.digit-display.three {
+    -fx-background-position: -39px 0px;
+}
+.digit-display.four {
+    -fx-background-position: -52px 0px;
+}
+.digit-display.five {
+    -fx-background-position: -65px 0px;
+}
+.digit-display.six {
+    -fx-background-position: -78px 0px;
+}
+.digit-display.seven {
+    -fx-background-position: -91px 0px;
+}
+.digit-display.eight {
+    -fx-background-position: -104px 0px;
+}
+.digit-display.nine {
+    -fx-background-position: -117px 0px;
+}
+
+.game-border {
+    -fx-image: url("sprite.gif");
+}
+.game-border.top,
+.game-border.bottom {
+    -fx-viewport: 40px 81px 16px 10px;
+}
+.game-border.left,
+.game-border.right {
+    -fx-viewport: 134px 39px 10px 32px;
+}
+.game-border.top-left {
+    -fx-viewport: 0px 81px 10px 10px;
+}
+.game-border.top-right {
+    -fx-viewport: 10px 81px 10px 10px;
+}
+.game-border.joint-left {
+    -fx-viewport: 56px 81px 10px 10px;
+}
+.game-border.joint-right {
+    -fx-viewport: 66px 81px 10px 10px;
+}
+.game-border.bottom-left {
+    -fx-viewport: 20px 81px 10px 10px;
+}
+.game-border.bottom-right {
+    -fx-viewport: 30px 81px 10px 10px;
+}
